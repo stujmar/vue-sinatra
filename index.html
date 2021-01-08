@@ -7,6 +7,19 @@
     <title>Vue Playground</title>
 </head>
 <body>
-    
+    <div id="app">
+        <input type="text" v-model="name">
+        <p>Hello {{ name }}</p>
+        <script>
+            new Vue({
+                el: "#app",
+                data() {
+                    return {
+                        name: 'John'
+                    }
+                }
+            })
+        </script>
+    </div>
 </body>
 </html>
