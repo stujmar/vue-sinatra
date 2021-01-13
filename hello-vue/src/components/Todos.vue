@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1>{{msg}}</h1>    
+        <h1>{{msg}}</h1>  
+        <div v-bind:key="todo.id" v-for="todo in todos" >
+            <h3>{{todo.title}}</h3>  
+        </div>
     </div>    
 </template>
 
