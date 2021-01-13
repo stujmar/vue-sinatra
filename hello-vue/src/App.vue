@@ -2,7 +2,7 @@
   <div id="app">
     <Landing />
     {{msg}}
-    <Todos />
+    <Todos v-bind:todos="todos" />
   </div>
 </template>
 
