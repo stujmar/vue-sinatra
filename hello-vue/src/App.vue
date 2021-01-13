@@ -15,7 +15,24 @@ export default {
   }, 
   data() {
     return {
-      msg: 'Hello'
+      msg: 'Hello',
+      todos: [
+        {
+          id: 1,
+          title: "Todo One",
+          done: false
+        },
+                {
+          id: 2,
+          title: "Todo Two",
+          done: false
+        },
+                {
+          id: 3,
+          title: "Todo Three",
+          done: false
+        },
+      ]
     }
   }
 }
