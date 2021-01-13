@@ -2,16 +2,19 @@
   <div id="app">
     <Landing />
     {{msg}}
+    <Todos />
   </div>
 </template>
 
 <script>
-import Landing from './components/Landing.vue'
+import Landing from './components/Landing.vue';
+import Todos from './components/Todos';
 
 export default {
   name: 'App',
   components: {
-    Landing
+    Landing,
+    Todos
   }, 
   data() {
     return {
