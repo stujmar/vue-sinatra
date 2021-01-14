@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <Landing />
+    <Header />
     {{msg}}
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
   </div>
 </template>
 
 <script>
-import Landing from './components/Landing.vue';
+
 import Todos from './components/Todos';
+import Header from './components/layout/Header.vue';
 
 export default {
   name: 'App',
   components: {
-    Landing,
-    Todos
+    Todos,
+    Header
   }, 
   data() {
     return {
