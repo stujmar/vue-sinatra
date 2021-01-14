@@ -13,7 +13,7 @@ export default {
     props: ["todos"],
     data () {
         return {
-            msg: "Todo's Title"
+            msg: "Let's get this stuff done!"
         }
     }
 }
