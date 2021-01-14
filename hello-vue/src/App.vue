@@ -33,7 +33,7 @@ export default {
                 {
           id: 3,
           title: "Todo Three",
-          done: false
+          done: true
         },
       ]
     }
