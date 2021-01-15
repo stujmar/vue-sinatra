@@ -1,6 +1,6 @@
 <template>
     <div>
-        <form @sumbit="addTodo">
+        <form @submit="addToDo">
             <input type="text" v-model="title" name="title" placeholder="Add Todo...">
             <input type="submit" value="Submit" class="btn">
         </form>
@@ -17,13 +17,14 @@ export default {
         }
     },
     methods: {
-        addTodo() {
-            const newTodo = {
+        addToDo() {
+            const newToDo = {
                 id: uuid.v4(),
                 title: this.title,
                 completed: false
             }
-            this.$emit('add-todo', newTodo);
+            //sending to parent
+            this.$emit('add-todo', newToDo);
         }
     }
 }
