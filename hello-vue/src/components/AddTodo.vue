@@ -17,11 +17,12 @@ export default {
         }
     },
     methods: {
-        addToDo() {
+        addToDo(e) {
+            e.preventDefault();
             const newToDo = {
                 id: uuid.v4(),
                 title: this.title,
-                completed: false
+                done: false
             }
             //sending to parent
             this.$emit('add-todo', newToDo);

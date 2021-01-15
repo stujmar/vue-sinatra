@@ -32,11 +32,11 @@ export default {
     }
 
     .del {
-        background: #ff0000;
+        background: #f59191;
         color: #fff;
         border: none;
         padding: 5px 9px;
-        border-radius: 50px;
+        border-radius: 5px;
         cursor: pointer;
         float: right;
     }
