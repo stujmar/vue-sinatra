@@ -26,6 +26,7 @@ export default {
             }
             //sending to parent
             this.$emit('add-todo', newToDo);
+            this.title = '';
         }
     }
 }
