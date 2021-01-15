@@ -24,21 +24,7 @@ export default {
     return {
       msg: '',
       todos: [
-        {
-          id: 1,
-          title: "Todo One",
-          done: false
-        },
-                {
-          id: 2,
-          title: "Todo Two",
-          done: false
-        },
-                {
-          id: 3,
-          title: "Todo Three",
-          done: false
-        },
+     
       ]
     }
   },
@@ -48,7 +34,10 @@ export default {
     },
     addToDo(newToDo) {
       this.todos = [...this.todos, newToDo];
-    }
+    },
+  },
+  created() {
+    
   }
 }
 </script>

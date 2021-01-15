@@ -7,3 +7,7 @@ npm install -g @vue/cli
 To check versions it is
 vue --version
 node -v
+
+#dependencies
+using `npm i uuid`
+using `npm i axios`
