@@ -31,7 +31,12 @@ export default {
   },
   methods: {
     deleteTodo(id) {
-      this.todos = this.todos.filter((todo) => todo.id !== id);
+      axios.delete(`https://jsonplaceholder.typeicode.com/todos/${id}`)
+        /* eslint-disable no-unused-vars */
+        .then(response => {this.todos = this.todos.filter((todo) => todo.id !== id);
+        })
+        .catch(error => console.log(error));
+      // this.todos = this.todos.filter((todo) => todo.id !== id);
     },
     addToDo(newToDo) {
       const { title, done } = newToDo;
