@@ -34,6 +34,12 @@ export default {
       this.todos = this.todos.filter((todo) => todo.id !== id);
     },
     addToDo(newToDo) {
+      const { title, done } = newToDo;
+      axios.post('https://jsonplaceholder.typicode.com/todos', {
+        title: title,
+        done: done
+      })
+
       this.todos = [...this.todos, newToDo];
     },
   },
