@@ -38,7 +38,8 @@ export default {
       axios.post('https://jsonplaceholder.typicode.com/todos', {
         title: title,
         done: done
-      })
+      }).then(response => this.todos = [...this.todos, response.Data])
+      .catch(error => console.log(error))
 
       this.todos = [...this.todos, newToDo];
     },
