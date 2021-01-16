@@ -31,10 +31,9 @@ export default {
   },
   methods: {
     deleteTodo(id) {
-      axios.delete(`https://jsonplaceholder.typeicode.com/todos/${id}`)
+      axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
         /* eslint-disable no-unused-vars */
-        .then(response => {this.todos = this.todos.filter((todo) => todo.id !== id);
-        })
+        .then(response => this.todos = this.todos.filter(todo => todo.id !== id))
         .catch(error => console.log(error));
       // this.todos = this.todos.filter((todo) => todo.id !== id);
     },
