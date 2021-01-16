@@ -12,6 +12,7 @@
 import Todos from './components/Todos';
 import Header from './components/layout/Header.vue';
 import AddTodo from './components/AddTodo.vue';
+import axios from 'axios'
 
 export default {
   name: 'App',
@@ -37,7 +38,7 @@ export default {
     },
   },
   created() {
-    
+
   }
 }
 </script>
