@@ -11,3 +11,4 @@ node -v
 #dependencies
 using `npm i uuid`
 using `npm i axios`
+using `npm install vue-router`
