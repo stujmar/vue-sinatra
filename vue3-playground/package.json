@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "tailwind": "npx tailwindcss -i ./src/assets/tailwind.css -o ./public/out.css",
+    "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/out.css",
+    "tailwind2": "npx tailwindcss -o ./public/out.css",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vueuse/core": "^5.1.3",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
