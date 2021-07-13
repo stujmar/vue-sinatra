@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+vue3-playground
+/vue3-playground
 
 # local env files
 .env.local
