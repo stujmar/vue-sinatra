@@ -7,7 +7,7 @@
   .btn {
     @apply px-4 py-2 bg-blue-600 text-white rounded;
   }
-  .edgar {
-    @apply px-4 py-2 bg-yellow-600 text-white rounded;
+  .origin {
+    @apply px-4 py-2 bg-yellow-600 text-red-500 rounded;
   }
 }
