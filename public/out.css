@@ -628,7 +628,7 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-.edgar {
+.unique {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
@@ -637,7 +637,7 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
 }
 
 .sr-only {
