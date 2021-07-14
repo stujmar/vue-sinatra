@@ -11,4 +11,4 @@ end
 get '/time' do
     code = "<%= Time.now %>"
     erb code
-  end
+end
