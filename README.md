@@ -1,4 +1,4 @@
-# vue3-playground
+# vue-sinatra
 
 ## Project setup
 ```
