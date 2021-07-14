@@ -1,4 +1,4 @@
-# vue3-playgroung
+# vue3-playground
 
 ## Project setup
 ```
