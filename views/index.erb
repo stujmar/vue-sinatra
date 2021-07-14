@@ -10,6 +10,9 @@
 <body>
     <div id="vue"></div>
     <div class="unique">"This is coming from an erb file"</div>
+    <% @people_list.each do |val| %>
+        <%= val %>
+    <% end %>
     <script src="./script.js"></script>
 </body>
 </html>
