@@ -7,7 +7,8 @@
     "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/out.css",
     "tailwind-sinatra": "npx tailwindcss -i ./src/tailwind.css -o ./public/out.css",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "put test script here"
   },
   "dependencies": {
     "@vueuse/core": "^5.1.3",
