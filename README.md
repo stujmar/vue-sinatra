@@ -1,4 +1,4 @@
-# vue-sinatra
+# Vue Mastery
 
 ## Project setup
 ```
